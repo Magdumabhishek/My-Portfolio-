@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Saira Extra Condensed", sans-serif;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #bd5d38;
+    font-family: "Arsenal SC", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 272px;
+}
+
+.navname {
+    display: none;
+}
+
+.btn{
+    display: none !important;
+}
+
+.pp {
+    display: none;
+}
+
+.toggle{
+    display: none;
+}
+
+@media screen and (max-width:768px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        /* position: fixed !important; */
+        /* top: 0 !important; */
+        /* left: 0 !important; */
+        /* right: 0 !important; */
+        height: 4rem;
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .toggle{
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right:0;
+        background-color: #Bd5d38;
+        color: white;
+        padding: 0.5rem 0;
+    }
+
+    .fa-x{
+        text-align: end;
+    }
+
+    .toggle a{
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .pp {
+        display: flex;
+        width: 8rem;
+        border-radius: 50%;
+        padding: 3px;
+        background-color: #ca7d60;
+    }
+
+    .btn{
+        display: flex !important;
+        font-size: 22px;
+        color: white;
+        background-color: #Bd5d38;
+        border-color: white;
+        padding: 0.4rem 0.7rem;
+        border: none;
+        border-radius: 0.8rem;
+        border-width: 1px;
+        font-weight: 800;
+
+    }
+
+    .navname {
+        display: flex;
+        color: white;
+    }
+
+    nav img {
+        display: none;
+    }
+
+    .a {
+        display: none !important;
+    }
+
+    #about {
+        display: flex;
+        margin-left: 0 !important;
+        margin-top: 6rem !important;
+        padding: 0.5rem 0.5rem !important;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0 !important;
+        height: 50vh !important;
+    }
+
+    .about-1 {
+        font-size: 2.8rem !important;
+        font-weight: 700;
+    }
+
+    .about-2 {
+        display: none;
+    }
+
+    .about-3 {
+        display: none;
+    }
+
+    .icons {
+        font-size: 0.8rem !important;
+    }
+
+    .icons i {
+        color: white;
+        background-color: #717781;
+        padding: 0.5rem !important;
+        border-radius: 50%;
+        margin: 0.4rem !important;
+    }
+
+    #experiance {
+        margin-left: 0 !important;
+        padding: 1rem 0.5rem !important;
+    }
+
+    #education {
+        padding: 1rem 0.5rem !important;
+        margin-left: 0 !important;
+    }
+
+    #skills {
+        margin-left: 0.5rem !important;
+        padding: 1rem 0 !important;
+
+    }
+
+    #awards {
+        margin-left: 0.5rem !important;
+        padding: 1rem 0 !important;
+
+    }
+
+    #interests {
+        margin-left: 0.5rem !important;
+        padding: 1rem 0 !important;
+
+    }
+
+    .ex-h {
+        margin: 0.2rem 0.5rem !important;
+        font-size: 2.5rem !important;
+        font-weight: 700;
+        color: #343a40;
+
+    }
+
+    .ex-c{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ex-1 {
+        margin: 0.2rem 0.5rem !important;
+        font-size: 28px;
+        color: #6c757d;
+        font-weight: 500;
+    }
+    
+    .ex-p {
+        margin: 0.2rem 0.5rem !important;
+        font-size: 20px;
+        color: #6c757d;
+    }
+    
+    h3 {
+        margin: 0.2rem 0.5rem !important;
+        font-size: 31.23px;
+        font-weight: 700;
+        color: #343a40;
+    }
+
+    .righttext {
+        margin: 0.2rem 0.5rem !important;
+        color: #Bd5d38;
+        font-size: 1.3rem;
+    }
+
+    
+
+}
+
+
+
+nav img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: #ca7d60;
+}
+
+.a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.a a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #e1b6a5;
+    font-size: 1.3rem;
+    padding: 8px;
+    font-weight: 500;
+}
+
+
+
+#about {
+    margin-left: 272px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 48px;
+}
+
+.about-1 {
+    font-size: 96px;
+    font-weight: 700;
+}
+
+.surname {
+    color: #bd5d38;
+}
+
+.about-2 {
+    font-size: 2rem;
+    color: #7a8489;
+
+}
+
+.about-2 a {
+    color: #bd5d38;
+}
+
+.about-3 {
+    font-size: 1.5rem;
+    color: #6c757d;
+}
+
+.icons {
+    font-size: 1.5rem;
+}
+
+.icons i {
+    color: white;
+    background-color: #717781;
+    padding: 1rem;
+    border-radius: 50%;
+    margin: 0.8rem;
+}
+
+.icons i:hover {
+    color: white;
+    background-color: #bd5d38;
+}
+
+#experiance {
+    margin-left: 272px;
+    padding: 1rem 48px;
+}
+
+.ex-1 {
+    font-size: 28px;
+    color: #6c757d;
+    font-weight: 500;
+}
+
+.ex-p {
+    font-size: 20px;
+    color: #6c757d;
+}
+
+.ex-h {
+    font-size: 53.70px;
+    font-weight: 700;
+    color: #bd5d38;
+}
+
+h3 {
+    font-size: 31.23px;
+    font-weight: 700;
+    color: #343a40;
+}
+
+
+.righttext {
+    color: #Bd5d38;
+    font-size: 1.3rem;
+}
+
+#education {
+    margin-left: 272px;
+    padding: 1rem 48px;
+}
+
+#skills {
+    margin-left: 272px;
+    padding: 1rem 48px;
+}
+
+.ex-i {
+    font-size: 3rem;
+    color: #6c757d;
+}
+
+.ex-i i {
+    margin: 0 1rem;
+
+}
+
+.space {
+    margin-left: 0.8rem;
+}
+
+.ex-pp {
+    font-size: 20px;
+    color: #6c757d;
+    margin: 0;
+}
+
+#interests {
+    margin-left: 272px;
+    padding: 1rem 48px;
+}
+
+.g {
+    color: gold;
+}
+
+
+#awards {
+    margin-left: 272px;
+    padding: 1rem 48px;
+}

@@ -85,6 +85,15 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 576px) {
+  .btn.btn-primary {
+    padding: 0.2rem 0.4rem !important; /* smaller padding */
+    font-size: 0.5rem; /* smaller text */
+    margin-left: 1rem;
+  }
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;

@@ -86,9 +86,9 @@
 }
 
 @media (max-width: 576px) {
-  .btn.btn-primary {
+  .btn.downloadbtn {
     padding: 0.4rem 0.4rem !important; /* smaller padding */
-    font-size: 0.6rem; /* smaller text */
+    font-size: 0.7rem; /* smaller text */
     margin-left: 1rem;
   }
 }
